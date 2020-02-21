@@ -11,9 +11,18 @@ class Logica{
     public:
         void add_pessoa(Pessoa* p);
         void print_pessoas();
+        void print(Pessoa* p);
         int menu();
         void iniciar();
         Pessoa* criar_pessoa();
+        Pessoa* pesquisa_pessoa(const string &nome);
+        void alterar_pessoa(Pessoa* p);
+        string pesquisar();
+        bool remover_posicao_vector();
+
+
+
+
 
 };
 
